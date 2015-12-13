@@ -1,0 +1,27 @@
+{
+  "name": "prod-config",
+  "version": "0.1.0",
+  "description": "configurations for multiple production environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinrong/prod-config.git"
+  },
+  "keywords": [
+    "NODE_ENV",
+    "ENV",
+    "deployment",
+    "config",
+    "environment",
+    "production"
+  ],
+  "author": "yinrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinrong/prod-config/issues"
+  },
+  "homepage": "https://github.com/yinrong/prod-config#readme"
+}
