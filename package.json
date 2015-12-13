@@ -4,7 +4,7 @@
   "description": "configurations for multiple production environments",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "$(npm bin)/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/yinrong/prod-config/issues"
   },
-  "homepage": "https://github.com/yinrong/prod-config#readme"
+  "homepage": "https://github.com/yinrong/prod-config#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
 }
